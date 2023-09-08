@@ -1,4 +1,6 @@
-﻿Console.Write("Add Username: ");
+﻿// Hello username Nastya!
+
+Console.Write("Add Username: ");
 
 string username = Console.ReadLine();
 
