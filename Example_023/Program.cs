@@ -1,4 +1,4 @@
-﻿// Massive Example 2 Use PseudoRandom method and Filling massive
+﻿// Massive Example 3 Use PseudoRandom method and Filling massive
 
 using System;
 // Console.Clear();
