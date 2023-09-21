@@ -5,9 +5,7 @@ Clear();
 // Method use
 
 WriteLine("Введите число для подсчета цифр: ");
-int A=int.Parse(ReadLine());
-int nums=GetDigestOnNumber(A);
-WriteLine($"Сумма = {nums}");
+WriteLine($"Сумма = {(GetDigestOnNumber(int.Parse(ReadLine())))}");
 
 int GetDigestOnNumber(int number)
 {
