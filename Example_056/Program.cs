@@ -11,15 +11,7 @@ Clear();
 int size = Vvod("Введите длину массива");
 int [] numbers = new int[size];
 FillArrayRandomDigest(numbers);
-
-int count = 0;
-
-for (int i = 0; i < numbers.Length; i++)
-{
-if (numbers[i] % 2 == 0)
-count++;
-}
-WriteLine($"Количество четных чисел в массиве = {count}");
+FindChetNumbers(numbers);
 PrintArray(numbers);
 
 
@@ -37,6 +29,17 @@ void FillArrayRandomDigest(int[] array)
     {
         array[i] = new Random().Next(100,1000);
     }
+}
+
+void FindChetNumbers (int[] array)
+{
+    int count = 0;
+    for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] % 2 == 0)
+            count++;
+        }
+    WriteLine($"Количество четных чисел в массиве = {count}");
 }
 
 void PrintArray(int [] array)
