@@ -1,4 +1,4 @@
-﻿// Example_061 TwoDimensional array - Factorial
+﻿// Example_061 Factorial
 using System;
 using static System.Console;
 Clear();
