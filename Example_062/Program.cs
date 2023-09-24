@@ -1,4 +1,4 @@
-﻿// Example_062 Fibonacci Digests
+﻿// Example_062 Fibonacci Digests (Recursive method)
 using System;
 using static System.Console;
 Clear();
