@@ -4,7 +4,7 @@ using static System.Console;
 Clear();
 // Examples:
 //тип //Разделитель // Имя массива // тип (строковый) // кол-во строк(2) //кол-во столбцов(5)
-string[,] table = new string [2, 5];
+// string[,] table = new string [2, 5];
 // String.Empty
 // table[0,0] table[0,1] table[0,2] table[0,3] table[0,4] 
 // table[1,0] table[1,1] table[1,2] table[1,3] table[1,4]
