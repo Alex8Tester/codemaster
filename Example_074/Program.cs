@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Example_074 Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+*/
+using System;
 
 public class Answer {
   public static double[, ] CreateRandomMatrix(int m, int n, int minLimitRandom, int maxLimitRandom) {
