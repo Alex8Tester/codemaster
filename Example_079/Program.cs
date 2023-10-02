@@ -21,6 +21,7 @@ int n = InputText("Введите количество столбцов: ");
 int[,] array = GetArray(m, n, 0, 9);
 PrintArray(array);
 WriteLine();
+
 int[] rowArrayIn = GetRowArray(array);
 SortArray(rowArrayIn);
 WriteLine(String.Join(" ",rowArrayIn));
