@@ -19,8 +19,9 @@ int z = InputText("Введите число строк в линии Z: ");
 
 WriteLine($"");
 int[,,] matrix3D = new int [x, y, z];
-GetArray(matrix3D);
-PrintArray(matrix3D);
+Format3DArray(matrix3D);
+Print3DArray(matrix3D);
+
 
 // Methods
 
@@ -32,7 +33,7 @@ int InputText(string message)
     return result;
 }
 
-void GetArray(int[,,] matrix3D)
+void Print3DArray(int[,,] matrix3D)
 {
   for (int i = 0; i < matrix3D.GetLength(0); i++)
   {
@@ -49,7 +50,7 @@ void GetArray(int[,,] matrix3D)
   }
 }
 
-void PrintArray(int[,,] matrix3D)
+void Format3DArray(int[,,] matrix3D)
 {
   int[] temp = new int[matrix3D.GetLength(0) * matrix3D.GetLength(1) * matrix3D.GetLength(2)];
   int number;
